@@ -1,7 +1,7 @@
 # CatalystDocuments
 Documentation for common code used in website development
 
-##Common media query
+## Common media query
 Media queries provided in bootstrap
 
 **variable value**
@@ -40,7 +40,7 @@ Media queries provided in bootstrap
     @include media-breakpoint-between(md, xl) { ... }
 ```
 
-Custom media query
+## Custom media query
 
 **untuk mobile landscape**
 ```css
