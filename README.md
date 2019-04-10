@@ -5,6 +5,7 @@ Documentation for common code used in website development
 * [CSS](#css)
     * [Common media query](#common-media-query)
     * [Custom media query](#custom-media-query)
+* [Javascript](#javascript)
 
 ## CSS
 ### Common media query
@@ -42,7 +43,7 @@ Media queries provided in bootstrap
     @include media-breakpoint-down(lg) { ... }
 ```
 **for any platform in between, eg below between md and xl**
-```css
+```scss
     @include media-breakpoint-between(md, xl) { ... }
 ```
 
@@ -55,3 +56,5 @@ Media queries provided in bootstrap
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: landscape) {...}
 ```
+
+## Javascript
