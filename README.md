@@ -7,6 +7,7 @@ Documentation for common code used in website development
     * [Custom media query](#custom-media-query)
 * [Javascript](#javascript)
     * [Scroll pass element](#scroll-pass-element)
+    * [Random positive integer](#random-positive-integer)
 
 ## CSS [:arrow_double_up:](#table-of-content) 
 ### Bootstrap media query [:arrow_double_up:](#table-of-content)
@@ -69,7 +70,7 @@ window.addEventListener("scroll", function() {
 }); 
 ```
 
-### Random positive integer
+### Random positive integer [:arrow_double_up:](#table-of-content)
 
 Random positive integer between max and min number
 
