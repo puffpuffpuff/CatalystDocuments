@@ -3,14 +3,14 @@ Documentation for common code used in website development
 
 ## Table of content
 * [CSS](#css)
-    * [Common media query](#common-media-query)
+    * [Bootstrap media query](#bootstrap-media-query)
     * [Custom media query](#custom-media-query)
 * [Javascript](#javascript)
     * [Scroll pass element](#scroll-pass-element)
 
 ## CSS [:arrow_double_up:](#table-of-content) 
-### Common media query [:arrow_double_up:](#table-of-content)
-Media queries provided in bootstrap
+### Bootstrap media query [:arrow_double_up:](#table-of-content)
+Media queries provided by bootstrap
 
 **variable value**
 ```css
