@@ -1,7 +1,11 @@
 # CatalystDocuments
 Documentation for common code used in website development
 
-## Common media query
+##Table of content
+* [Common media query](#common-media-query)
+* [Custom media query](#custom-media-query)
+
+### Common media query
 Media queries provided in bootstrap
 
 **variable value**
@@ -21,14 +25,14 @@ Media queries provided in bootstrap
     // xl
     min-width: 1200px
 ```
-**for any platform that bigger than**
+**for any platform bigger than**
 ```scss
     @include media-breakpoint-up(sm) { ... }
     @include media-breakpoint-up(md) { ... }
     @include media-breakpoint-up(lg) { ... }
     @include media-breakpoint-up(xl) { ... }
 ```
-**for any platform that smaller than**
+**for any platform smaller than**
 ```scss
     @include media-breakpoint-down(xs) { ... }
     @include media-breakpoint-down(sm) { ... }
@@ -40,7 +44,7 @@ Media queries provided in bootstrap
     @include media-breakpoint-between(md, xl) { ... }
 ```
 
-## Custom media query
+### Custom media query
 
 **untuk mobile landscape**
 ```css
