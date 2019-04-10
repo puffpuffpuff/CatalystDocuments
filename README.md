@@ -7,8 +7,8 @@ Documentation for common code used in website development
     * [Custom media query](#custom-media-query)
 * [Javascript](#javascript)
 
-## CSS
-### Common media query
+## CSS [:house:](#table-of-content) 
+### Common media query [:house:](#table-of-content)
 Media queries provided in bootstrap
 
 **variable value**
@@ -47,7 +47,7 @@ Media queries provided in bootstrap
     @include media-breakpoint-between(md, xl) { ... }
 ```
 
-### Custom media query
+### Custom media query [:house:](#table-of-content)
 
 **untuk mobile landscape**
 ```css
@@ -57,4 +57,4 @@ Media queries provided in bootstrap
     and (orientation: landscape) {...}
 ```
 
-## Javascript
+## Javascript [:house:](#table-of-content)
