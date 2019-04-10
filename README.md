@@ -1,7 +1,7 @@
 # CatalystDocuments
 Documentation for common code used in website development
 
-###Common media query
+##Common media query
 Media queries provided in bootstrap
 
 **variable value**
@@ -22,14 +22,14 @@ Media queries provided in bootstrap
     min-width: 1200px
 ```
 **for any platform that bigger than**
-```css
+```scss
     @include media-breakpoint-up(sm) { ... }
     @include media-breakpoint-up(md) { ... }
     @include media-breakpoint-up(lg) { ... }
     @include media-breakpoint-up(xl) { ... }
 ```
 **for any platform that smaller than**
-```css
+```scss
     @include media-breakpoint-down(xs) { ... }
     @include media-breakpoint-down(sm) { ... }
     @include media-breakpoint-down(md) { ... }
