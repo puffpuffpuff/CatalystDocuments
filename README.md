@@ -1,10 +1,12 @@
 # CatalystDocuments
 Documentation for common code used in website development
 
-##Table of content
-* [Common media query](#common-media-query)
-* [Custom media query](#custom-media-query)
+## Table of content
+* [CSS](#css)
+    * [Common media query](#common-media-query)
+    * [Custom media query](#custom-media-query)
 
+## CSS
 ### Common media query
 Media queries provided in bootstrap
 
