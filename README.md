@@ -3,12 +3,12 @@ Documentation for common code used in website development.
 Click :arrow_double_up: to navigate back into table of content.
 
 ## Table of content
-* [CSS](#css)
-    * [Bootstrap media query](#bootstrap-media-query)
-    * [Custom media query](#custom-media-query)
-* [Javascript](#javascript)
-    * [Scroll pass element](#scroll-pass-element)
-    * [Random positive integer](#random-positive-integer)
+* [CSS](#css-arrow_double_up)
+    * [Bootstrap media query](#bootstrap-media-query-arrow_double_up)
+    * [Custom media query](#custom-media-query-arrow_double_up)
+* [Javascript](#javascript-arrow_double_up)
+    * [Scroll pass element](#scroll-pass-element-arrow_double_up)
+    * [Random positive integer](#random-positive-integer-arrow_double_up)
 
 ## CSS [:arrow_double_up:](#table-of-content) 
 ### Bootstrap media query [:arrow_double_up:](#table-of-content)
