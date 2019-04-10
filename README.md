@@ -1,6 +1,6 @@
 # Catalyst Website Documentation
-Documentation for common code used in website development
-Click [:arrow_double_up:] to navigate back into table of content
+Documentation for common code used in website development.
+Click :arrow_double_up: to navigate back into table of content.
 
 ## Table of content
 * [CSS](#css)
