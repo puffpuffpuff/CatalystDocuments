@@ -1,4 +1,4 @@
-# CatalystDocuments
+# Catalyst Website Documentation
 Documentation for common code used in website development
 
 ## Table of content
@@ -55,7 +55,9 @@ and (orientation: landscape) { ... }
 ```
 
 ## Javascript [:arrow_double_up:](#table-of-content)
+
 ### Scroll pass element [:arrow_double_up:](#table-of-content)
+
 ```javascript
 window.addEventListener("scroll", function() {
     var targetElement = document.getElementById("targetElement");
@@ -65,4 +67,15 @@ window.addEventListener("scroll", function() {
         //if not do...
     }
 }); 
+```
+
+### Random positive integer
+
+Random positive integer between max and min number
+
+```javascript
+//n is any max number, m is any number less than n and if n - m is not negative
+var max = n, min = n - m;
+Math.floor(Math.random() * (max - min + 1)) + min;
+//result is positive integer between max and min
 ```
