@@ -3,15 +3,15 @@ Documentation for common code used in website development.
 Click :arrow_double_up: to navigate back into table of content.
 
 ## Table of content
-* [CSS](#css-arrow_double_up)
-    * [Bootstrap media query](#bootstrap-media-query-arrow_double_up)
-    * [Custom media query](#custom-media-query-arrow_double_up)
-* [Javascript](#javascript-arrow_double_up)
-    * [Scroll pass element](#scroll-pass-element-arrow_double_up)
-    * [Random positive integer](#random-positive-integer-arrow_double_up)
+* [CSS](#css)
+    * [Bootstrap media query](#bootstrap-media-query)
+    * [Custom media query](#custom-media-query)
+* [Javascript](#javascript)
+    * [Scroll pass element](#scroll-pass-element)
+    * [Random positive integer](#random-positive-integer)
 
-## CSS [:arrow_double_up:](#table-of-content) 
-### Bootstrap media query [:arrow_double_up:](#table-of-content)
+## CSS 
+### Bootstrap media query
 Media queries provided by bootstrap
 
 **variable value**
@@ -46,7 +46,7 @@ min-width: 1200px
 @include media-breakpoint-between(md, xl) { ... }
 ```
 
-### Custom media query [:arrow_double_up:](#table-of-content)
+### Custom media query
 
 **untuk mobile landscape**
 ```css
@@ -56,9 +56,9 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) { ... }
 ```
 
-## Javascript [:arrow_double_up:](#table-of-content)
+## Javascript
 
-### Scroll pass element [:arrow_double_up:](#table-of-content)
+### Scroll pass element
 
 ```javascript
 window.addEventListener("scroll", function() {
@@ -71,7 +71,7 @@ window.addEventListener("scroll", function() {
 }); 
 ```
 
-### Random positive integer [:arrow_double_up:](#table-of-content)
+### Random positive integer
 
 Random positive integer between max and min number
 
