@@ -95,4 +95,15 @@ Untuk setup visibility dapat dilakukan dengan cara:
 * Pada tag configuration pilih tag type `Google Analytics - Universal analytics`
 * Track type pilih `Page view` > Google analytic setting pilih `{{Google analytic setting}}`
 * Click triggering, akan terbuka window choose a trigger > click pada icon `+` > akan terbuka window untuk setup trigger
-* Beri judul trigger > pada trigger configuration pilih element visibility > isi element id dengan id page 
+* Beri judul trigger > pada trigger configuration pilih `element visibility` > isi element id dengan id page 
+
+## Virtual page
+Virtual page digunakan untuk track element atau halaman yang tidak termasuk didalam struktur website yang fungsinya untuk membuat seolah-olah element atau halaman tersebut merupakan bagian dari website. Contoh element button pada plugin facebook like, tautan halaman ke situs lain, dan popup. Untuk setup virtual page dilakukan dengan cara:
+* Buka google tag manager
+* Buka menu `Tags` > Click `new` 
+* Tentukan judul tag
+* Pada tag configuration pilih tag type `Google Analytics - Universal analytics`
+* Track type pilih `Page view` > Google analytic setting pilih `{{Google analytic setting}}` > Checklist `enable overriding settings on this tag` > pilih Field to set > dalam field name isi `page` dan value isi dengan judul virtual page yang diinginkan
+* Click triggering, akan terbuka window choose a trigger > click pada icon `+` > akan terbuka window untuk setup trigger
+* Beri judul trigger > pada trigger configuration pilih `click - all element` 
+* pada `Fire this trigger when an Event occurs and all of these conditions are true` isi dengan `click element`, `matches css selector`,class css element yang trigger plugin/link luar/popup
