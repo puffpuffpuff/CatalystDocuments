@@ -9,8 +9,11 @@ Click :arrow_double_up: to navigate back into table of content.
 * [Javascript](#javascript)
     * [Scroll pass element](#scroll-pass-element)
     * [Random positive integer](#random-positive-integer)
-* [Analytics]
+* [Analytics](#analytics)
     * [Setup visibility](#setup-visibility)
+    * [Virtual page](#virtual-page)
+* [Image](#image)
+    * [Minified image](#minified-image)
 
 ## CSS 
 ### Bootstrap media query
@@ -107,3 +110,10 @@ Virtual page digunakan untuk track element atau halaman yang tidak termasuk dida
 * Click triggering, akan terbuka window choose a trigger > click pada icon `+` > akan terbuka window untuk setup trigger
 * Beri judul trigger > pada trigger configuration pilih `click - all element` 
 * pada `Fire this trigger when an Event occurs and all of these conditions are true` isi dengan `click element`, `matches css selector`,class css element yang trigger plugin/link luar/popup
+
+
+## Image
+
+### Minified image
+Beberapa cara untuk minified image:
+* menggunakan website seperti [TinyPNG](https://tinypng.com)
