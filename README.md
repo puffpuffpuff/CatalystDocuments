@@ -9,6 +9,8 @@ Click :arrow_double_up: to navigate back into table of content.
 * [Javascript](#javascript)
     * [Scroll pass element](#scroll-pass-element)
     * [Random positive integer](#random-positive-integer)
+* [Analytics]
+    * [Setup visibility](#setup-visibility)
 
 ## CSS 
 ### Bootstrap media query
@@ -81,3 +83,16 @@ var max = n, min = n - m;
 Math.floor(Math.random() * (max - min + 1)) + min;
 //result is positive integer between max and min
 ```
+
+## Analytics
+
+### Setup visibility
+Visibility dipakai untuk menentukan apakah sebuah halaman sedang dibuka oleh visitor(Page view). 
+Untuk setup visibility dapat dilakukan dengan cara:
+* Buka google tag manager
+* Buka menu `Tags` > Click `new` 
+* Tentukan judul tag
+* Pada tag configuration pilih tag type `Google Analytics - Universal analytics`
+* Track type pilih `Page view` > Google analytic setting pilih `{{Google analytic setting}}`
+* Click triggering, akan terbuka window choose a trigger > click pada icon `+` > akan terbuka window untuk setup trigger
+* Beri judul trigger > pada trigger configuration pilih element visibility > isi element id dengan id page 
